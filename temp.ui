@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TodayTable</class>
+ <widget class="QMainWindow" name="TodayTable">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>40</y>
+      <width>381</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <property name="documentMode">
+     <bool>false</bool>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>위병소</string>
+     </attribute>
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>381</width>
+        <height>421</height>
+       </rect>
+      </property>
+      <row>
+       <property name="text">
+        <string>08:00~10:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>10:00~12:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>12:00~14:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>14:00~16:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>16:00~18:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>18:00~20:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>20:00~22:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>22:00~00:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>00:00~02:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>02:00~04:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>04:00~06:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>06:00~08:00</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>정</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>부</string>
+       </property>
+      </column>
+      <item row="0" column="0">
+       <property name="text">
+        <string>위병소08정</string>
+       </property>
+      </item>
+      <item row="0" column="1">
+       <property name="text">
+        <string>위병소08부</string>
+       </property>
+      </item>
+      <item row="1" column="0">
+       <property name="text">
+        <string>위병소10정</string>
+       </property>
+      </item>
+      <item row="1" column="1">
+       <property name="text">
+        <string>위10부</string>
+       </property>
+      </item>
+      <item row="2" column="0">
+       <property name="text">
+        <string>위병소12정</string>
+       </property>
+      </item>
+      <item row="2" column="1">
+       <property name="text">
+        <string>위병소12부</string>
+       </property>
+      </item>
+      <item row="3" column="0">
+       <property name="text">
+        <string>위14정</string>
+       </property>
+      </item>
+      <item row="3" column="1">
+       <property name="text">
+        <string>위14부</string>
+       </property>
+      </item>
+      <item row="4" column="0">
+       <property name="text">
+        <string>위16정</string>
+       </property>
+      </item>
+      <item row="4" column="1">
+       <property name="text">
+        <string>위16부</string>
+       </property>
+      </item>
+      <item row="5" column="0">
+       <property name="text">
+        <string>위18정</string>
+       </property>
+      </item>
+      <item row="5" column="1">
+       <property name="text">
+        <string>위18부</string>
+       </property>
+      </item>
+      <item row="6" column="0">
+       <property name="text">
+        <string>위20정</string>
+       </property>
+      </item>
+      <item row="6" column="1">
+       <property name="text">
+        <string>위20부</string>
+       </property>
+      </item>
+      <item row="7" column="0">
+       <property name="text">
+        <string>위22정</string>
+       </property>
+      </item>
+      <item row="7" column="1">
+       <property name="text">
+        <string>위22부</string>
+       </property>
+      </item>
+      <item row="8" column="0">
+       <property name="text">
+        <string>위0정</string>
+       </property>
+      </item>
+      <item row="8" column="1">
+       <property name="text">
+        <string>위0부</string>
+       </property>
+      </item>
+      <item row="9" column="0">
+       <property name="text">
+        <string>위2정</string>
+       </property>
+      </item>
+      <item row="9" column="1">
+       <property name="text">
+        <string>위2부</string>
+       </property>
+      </item>
+      <item row="10" column="0">
+       <property name="text">
+        <string>위병소04정</string>
+       </property>
+      </item>
+      <item row="10" column="1">
+       <property name="text">
+        <string>위병소04부</string>
+       </property>
+      </item>
+      <item row="11" column="0">
+       <property name="text">
+        <string>위병소06정</string>
+       </property>
+      </item>
+      <item row="11" column="1">
+       <property name="text">
+        <string>위병소06부</string>
+       </property>
+      </item>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>탄약고</string>
+     </attribute>
+     <widget class="QTableWidget" name="tableWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>381</width>
+        <height>421</height>
+       </rect>
+      </property>
+      <row>
+       <property name="text">
+        <string>08:00~10:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>10:00~12:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>12:00~14:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>14:00~16:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>16:00~18:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>18:00~20:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>20:00~22:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>22:00~00:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>00:00~02:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>02:00~04:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>04:00~06:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>06:00~08:00</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>정</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>부</string>
+       </property>
+      </column>
+      <item row="0" column="0">
+       <property name="text">
+        <string>탄8정</string>
+       </property>
+      </item>
+      <item row="0" column="1">
+       <property name="text">
+        <string>탄8부</string>
+       </property>
+      </item>
+      <item row="1" column="0">
+       <property name="text">
+        <string>탄10정</string>
+       </property>
+      </item>
+      <item row="1" column="1">
+       <property name="text">
+        <string>탄10부</string>
+       </property>
+      </item>
+      <item row="2" column="0">
+       <property name="text">
+        <string>탄12정</string>
+       </property>
+      </item>
+      <item row="2" column="1">
+       <property name="text">
+        <string>탄12부</string>
+       </property>
+      </item>
+      <item row="3" column="0">
+       <property name="text">
+        <string>탄14정</string>
+       </property>
+      </item>
+      <item row="3" column="1">
+       <property name="text">
+        <string>탄124부</string>
+       </property>
+      </item>
+      <item row="4" column="0">
+       <property name="text">
+        <string>탄16정</string>
+       </property>
+      </item>
+      <item row="4" column="1">
+       <property name="text">
+        <string>탄16부</string>
+       </property>
+      </item>
+      <item row="11" column="0">
+       <property name="text">
+        <string>탄06정</string>
+       </property>
+      </item>
+      <item row="11" column="1">
+       <property name="text">
+        <string>탄06뷰ㅜ</string>
+       </property>
+      </item>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>상황/cctv</string>
+     </attribute>
+     <widget class="QTableWidget" name="tableWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>381</width>
+        <height>421</height>
+       </rect>
+      </property>
+      <row>
+       <property name="text">
+        <string>08:00~10:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>10:00~12:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>12:00~14:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>14:00~16:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>16:00~18:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>18:00~20:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>20:00~22:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>22:00~00:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>00:00~02:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>02:00~04:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>04:00~06:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>06:00~08:00</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>상황병</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>CCTV</string>
+       </property>
+      </column>
+      <item row="0" column="0">
+       <property name="text">
+        <string>상08</string>
+       </property>
+      </item>
+      <item row="0" column="1">
+       <property name="text">
+        <string>시8</string>
+       </property>
+      </item>
+      <item row="1" column="0">
+       <property name="text">
+        <string>상10</string>
+       </property>
+      </item>
+      <item row="1" column="1">
+       <property name="text">
+        <string>시10</string>
+       </property>
+      </item>
+      <item row="11" column="0">
+       <property name="text">
+        <string>상06</string>
+       </property>
+      </item>
+      <item row="11" column="1">
+       <property name="text">
+        <string>시06</string>
+       </property>
+      </item>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar">
+   <property name="sizeGripEnabled">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

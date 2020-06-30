@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>648</width>
+    <height>553</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>110</y>
+     <width>361</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <row>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>2</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>3</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>이름</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>점수</string>
+    </property>
+   </column>
+   <item row="0" column="0">
+    <property name="text">
+     <string>나는</string>
+    </property>
+   </item>
+   <item row="0" column="1">
+    <property name="text">
+     <string>13</string>
+    </property>
+   </item>
+   <item row="1" column="0">
+    <property name="text">
+     <string>나비</string>
+    </property>
+   </item>
+   <item row="1" column="1">
+    <property name="text">
+     <string>호호</string>
+    </property>
+   </item>
+   <item row="2" column="0">
+    <property name="text">
+     <string>마지막</string>
+    </property>
+   </item>
+   <item row="2" column="1">
+    <property name="text">
+     <string>점수</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
